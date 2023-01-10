@@ -1,0 +1,603 @@
+*{margin: 0;
+    padding: 0;
+    }
+    body{
+        font-family: 'Quicksand', sans-serif;
+    }
+    
+     
+    
+    header{
+        width: 100%;
+        display: flex;
+        background-color: rgb(230, 223, 223);
+        justify-content: space-around;
+        align-items: center;
+        padding: 10px;
+        margin: 0 auto;
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    
+    nav ul{
+        display: flex;
+    }
+    
+    a{
+        text-decoration: none;
+        color:black;
+        line-height: 50px;
+    }
+    nav a{
+        font-weight: 500;
+        padding-right: 10px;
+        
+    }
+    nav a:hover{
+    color: grey;
+    transition: 0.5s;
+    }
+    nav ul li  a:hover{
+       transition: 0.5s;
+       
+    }
+    nav ul{
+        list-style: none;
+    }
+    .iconos a:hover{
+      color: rgb(204, 61, 61);
+    }
+    .checkbtn{
+        font-size: 30px;
+        color: rgb(41, 39, 39);
+        float: right;
+        line-height: 80px;
+        margin-right: 40px;
+        cursor: pointer;
+        display: none;
+    }
+    
+    #check{
+        display: none;
+    }
+    
+    
+    
+    
+    section .id{
+    scroll-margin-top: 70px;
+    }
+    .descarga a{
+        color: rgb(14, 12, 12);
+        background-color: rgb(247, 241, 234) ;
+        padding: 15px 20px;
+        border-radius: 10px;
+    }
+    
+    
+    .parte1{
+        height: 600px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        background-color: yellow;
+        margin: 5px;
+        padding: 5px;
+        padding-left: 2px;
+     }
+    .titulo1{
+        width: 550px;
+        margin: 30px;
+        padding: 120px;
+    }
+    .parte1 h2{
+        font-size: 18px;
+        height: 30px;
+        padding: 2px;
+    }
+    .parte1 h1{
+        font-size: 40px;
+        height: 50px;
+    }
+    
+    .parte1 p{
+        font-size: 18px;
+        height: 45px;
+    }
+    
+    .btn{
+    margin: 2px;
+    padding: 8px 15px;
+    }
+    
+    .boton-primer{
+        color: white;
+        background-color: black;
+    }
+    .fc{
+        margin: 20px;
+    }
+    .imagen{
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        border: 15px solid white;
+    }
+    
+    .gear{
+        margin: 50px 40px;
+        padding: 15px;
+    }
+    
+    
+    .parte2{
+        width: 100%;
+        height: 450px;
+    }
+    .titulo2{
+        text-align: center;
+        height: 2px;
+        margin: 2px;
+        padding: 2px;
+       }
+    .titulo2 h2{
+        margin: 5px;
+        height: 10px;
+        margin-bottom: 20px;
+        
+    }
+    .parrafo{
+        margin: 2px 60px;
+        margin-bottom: 20px;
+        padding: 2px 40px;
+        text-align: left;
+        font-size: 15px;
+        margin-top: 70px;
+    }
+    .parrafo p strong{
+        font-size: 20px;
+        
+    }
+    .años{
+        transform: translateX(30%) translateY(30%);
+    margin-bottom: 20px;
+    }
+    .años h1{
+        text-align: center;
+        color: rgb(131, 123, 123);
+        font-size: 30px;
+    
+    }
+    .memoria{
+        display: flex;
+        margin-bottom: 20px;
+    }
+    .datos{
+        display: flex;
+        margin: 2px 40px;
+        padding: 2px 30px;
+        }    
+    .dato1{
+        margin: 25px;
+        width: 550px;
+    }
+    .dato2{ 
+        margin: 25px;
+        width: 700px;
+    }
+    .dato3{
+        margin: 25px;
+        width: 500px;
+    }
+    .dato4{
+        margin: 25px;
+        width: 350px;
+    }
+    .parte3{
+        height: 700px;
+    }
+    .titulo3{
+        text-align: center;
+        
+    }
+    
+    .cuadro{
+    width: 100%;
+    min-width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    }
+    .regla{
+    margin: 10px;
+    width: 300px;
+    margin-right: 30px;
+    text-align: center;
+    }
+    .regla h1{
+        margin-bottom: 15px;
+    }
+    .regla i{
+        color: rgb(241, 241, 19);
+        font-size: 40px;
+        margin-bottom: 10px;
+    }
+    
+    .titulo3 h2{
+        margin: 5px;
+        padding: 5px;
+    }
+    .parte4{
+        width: 100%;
+    }
+    .titulo4 span{
+        height: 15px;
+    }
+    .titulo4{
+        text-align: center;
+        height: 5px;
+        margin: 5px;
+        padding: 5px;
+       
+    }
+    
+    .curriculum{
+        margin: 50px;
+        padding: 50px;
+        display: flex;
+    }
+    .educacion{
+        width: 60%;
+    border-left: 3px solid yellow;
+    }
+    
+      
+    .experiencia{
+        width:60%;
+        transform: translateX(10%) translateY(2%);
+        border-left: 3px solid yellow;
+        padding: 8px;
+    }
+    .educacion h2{
+        margin: 10px;
+        height: 20px;
+    }
+    .estudio1 h3{
+        margin: 15px;
+        height: 35px;
+    }
+    .estudio1 h4{
+        margin: 15px;
+        height: 15px;
+    }
+    .estudio1 p{
+    
+        padding-left: 15px;
+    }
+    .estudio2 h3{
+        margin: 15px;
+        padding: 0px;
+        height: 35px;
+    }
+    .estudio2 h4{
+        margin: 15px;
+        height: 10px;
+    }
+    .estudio2 p{
+        padding-left: 15px;
+    }
+    .estudio3 h3{
+        margin: 15px;
+        height: 15px;
+    }
+    .estudio3 h4{
+        margin: 10px;
+        height: 15px;
+        padding-left: 5px;
+    }
+    .estudio3 p{
+        padding-left: 15px;
+    }
+    .trabajo1 h3{
+        margin: 10px;
+        height: 35px;
+    }
+    .trabajo1 h4{
+        margin: 15px;
+        height: 10px;
+        
+    }
+    .trabajo1 p{
+        padding-left: 17px;
+    }
+    .trabajo2 h3{
+        margin: 10px;
+        height: 15px;
+    }
+    .trabajo2 h4{
+        margin: 15px;
+        height: 5px;
+    }
+    .trabajo2 p{
+        padding-left: 15px;
+    }
+    .parte5{
+        max-width: 1024px;
+        width: 100%;
+        height: auto;
+        padding: 20px 13%;
+    }
+    .tecnicas{
+        margin-bottom: 20px;
+        font-size: 15px;
+    }
+    .contenedor{
+        width: 40%;
+        height: 250px;
+        display: flex;
+    }
+    .info{
+        margin-left: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .info hr{
+        width: 350px;
+        background-color: yellow;
+    }
+    .rav{
+        margin-left: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .rav hr{
+        width: 250px;
+        background-color: yellow;
+    }
+    .luf{
+        margin-left: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .luf hr{
+        width: 300px;
+        background-color: yellow;
+    }
+    .tof{
+        margin-left: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .tof hr{
+        width: 200px;
+        background-color: yellow;
+    }
+    .cam{
+        margin-left: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .cam hr{
+        width: 150px;
+        background-color: yellow;
+    }
+    .dim{
+        margin-left: 10px;
+        padding-bottom: 15px;
+        display: flex;
+        justify-content: space-around;
+    }
+    .dim hr{
+        width: 350px;
+        background-color: yellow;
+    }
+    .parte6{
+        min-width: 1200px;
+        width: 100%;
+        height: 1000px;
+    }
+    .titulo6{
+        text-align: center;
+        height: 70px;
+    }
+    
+    .menu{
+        display: flex;
+        justify-content: center;
+        gap: 15px;
+    }
+    
+    
+    
+    
+    .porta{
+    height: 500px;
+     width: 85%;
+    display: flex;
+    flex-wrap: wrap;
+     margin: 0 auto;
+    }
+    .porta img{
+        width: 300px;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        padding-top: 5px;
+        margin-left: 2px;
+    }
+    img{
+        margin-top: 15px;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    img:hover{
+        box-shadow: 5px 5px 20px rgb(160, 155, 155);
+        transform: translateY(-3%);
+        opacity: 0.7;
+    }
+    footer{
+        
+        width: 100%;
+        background-color: yellow;
+    }
+    .pie{
+        display: flex;
+        justify-content: center;
+        height: 450px;
+    }
+    .titulo7{
+        margin-top: 50px;
+        margin-bottom: 40px;
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+    .texto{
+        padding-bottom: 10px;
+        padding-right: 40px;
+    }
+    .texto1{
+        margin-top: 20px;
+        padding-bottom: 30px;
+    }
+    
+    .correo form input,
+    .correo form textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: 0;
+    border-bottom: 1px solid rgb(151, 148, 148);
+    }
+    .correo button{
+        background: rgb(20, 18, 18);
+        color: white;
+        padding: 10px;
+        width: 80px;
+    }
+    .proyecto{
+        margin-top: 40px;
+        padding-top: 40px;
+        padding-bottom: 20px;
+    }
+    
+    
+    button{
+        margin: 30px;
+    }
+    .descarga{
+        margin-bottom: 60px;
+        text-align: center;
+        align-items: center;
+    }
+    
+    @media (max-width:700px){
+        .checkbtn{
+            display: block;
+        }
+        header{
+            flex-direction: column;
+            height: 10px;
+        }
+        nav ul{
+            width: 20%;
+            position: fixed;
+            background: rgb(102, 100, 100);
+            top: 10px;
+            left: -100%;
+            text-align: center;
+            transition: all .5s;
+            flex-direction: column;
+        }
+        nav ul li{
+            display: block;
+            line-height: 20px;
+        }
+       li a:hover, li a.active{
+        background: none;
+        color: red;
+       }
+      #check:checked ~ ul{
+        left: 450px;
+      }
+    
+    }
+    
+    @media (max-width:700px){
+        
+        .parte1{
+            flex-direction: column;
+            justify-content: center;
+            height: 100%;
+        }
+       .titulo1{
+        margin: 0 auto;
+        align-items: center;
+       }
+    
+        .parte2{
+            flex-direction: column;
+            margin: 0 auto;
+            height: 100%;
+        }
+       .datos{
+        flex-direction: column;
+            justify-content: center;
+       }
+    
+        .parte3{
+            height: 100%;
+            justify-content: center;
+        }
+       
+        .cuadro{
+            flex-direction: column;
+            margin: 0 auto;
+        }
+       .parte4{
+        height: 100%;
+       }
+    
+       .curriculum{
+        flex-direction: column;
+        margin: 0 auto;
+        }
+        .educacion{
+            margin: 0 auto; 
+        }
+        .experiencia{
+            margin: 0 auto; 
+        }
+      
+        
+       
+        .contenedor{
+           flex-direction: column; 
+           margin: 0 auto;
+        }
+        .parte6{
+            height: 100%;
+        }
+        .titulo6{
+            text-align: left;
+        }
+        
+        .porta{
+            height: 100%;
+            flex-direction: column;
+            margin: 0;
+            padding: 0;
+            justify-content: center;
+        }
+        
+      .pie{
+        height: 100%;
+        flex-direction: column;
+        margin: 0 auto;
+        align-items: center;
+      }
+    }
